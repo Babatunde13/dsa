@@ -1,5 +1,7 @@
 package fizzbuzz
 
+// https://leetcode.com/problems/fizz-buzz/description/
+
 import "fmt"
 
 func fizzBuzz(n int) []string {

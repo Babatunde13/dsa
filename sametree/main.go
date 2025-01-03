@@ -1,5 +1,6 @@
 package sametree
 
+// https://leetcode.com/problems/same-tree/description/
 type TreeNode struct {
     Val int
     Left *TreeNode

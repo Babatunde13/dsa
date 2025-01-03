@@ -1,5 +1,6 @@
 package ransomnote
 
+// https://leetcode.com/problems/ransom-note/description/
 func canConstruct(ransomNote string, magazine string) bool {
 	if len(magazine) < len(ransomNote) {
         return false

@@ -1,5 +1,6 @@
 package richestcustomer
 
+// https://leetcode.com/problems/richest-customer-wealth/description/
 func richestCustomerWealth(accounts [][]int) int {
 	highestWealth := 0
 	for _, customerWealths := range accounts {

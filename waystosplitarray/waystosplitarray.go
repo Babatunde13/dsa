@@ -1,5 +1,7 @@
 package waystosplitarray
 
+// https://leetcode.com/problems/number-of-ways-to-split-array/description/
+
 func waysToSplitArray(nums []int) int {
     count := 0
 	leftSum := 0

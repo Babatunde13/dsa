@@ -1,5 +1,6 @@
 package numberofstepstozero
 
+// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
 func numberOfSteps(num int) int {
     numOfSteps := 0
     for num > 0 {

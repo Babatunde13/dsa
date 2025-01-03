@@ -2,6 +2,8 @@ package vowelstrings
 
 import "strings"
 
+// https://leetcode.com/problems/count-vowel-strings-in-ranges/description/
+
 func startsWithVowel(word string) bool {
     if strings.HasPrefix(word, "a") ||
         strings.HasPrefix(word, "e") ||
