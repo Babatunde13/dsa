@@ -1,4 +1,8 @@
 function canConstruct(ransomNote: string, magazine: string): boolean {
+    if (magazine.length < ransomNote.length) {
+        return false
+    }
+
     const magKey: { [key: string]: number } = {}
 	for (let char of magazine) {
 		if (magKey[char]) {

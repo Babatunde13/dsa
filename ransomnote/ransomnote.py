@@ -1,4 +1,7 @@
 def can_construct1(ransomNote, magazine):
+    if len(magazine) < len(ransomNote):
+        return False
+
     magKey = {}
     for char in magazine:
         if magKey.get(char):
